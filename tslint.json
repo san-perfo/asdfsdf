@@ -1,0 +1,37 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "arrow-return-shorthand": true,
+        "import-spacing": true,
+        "no-empty-interface": true,
+        "interface-name": [
+            true,
+            "never-prefix"
+        ],
+        "no-shadowed-variable": true,
+        "no-trailing-whitespace": true,
+        "no-unnecessary-initializer": true,
+        "no-unused-expression": true,
+        "no-use-before-declare": true,
+        "no-var-keyword": true,
+        "semicolon": [
+            true,
+            "always"
+        ],
+        "prefer-const": true,
+        "quotemark": [
+            true,
+            "single"
+        ],
+        "max-line-length": [
+            true,
+            160
+        ],
+        "no-console":false
+    },
+    "rulesDirectory": []
+}
